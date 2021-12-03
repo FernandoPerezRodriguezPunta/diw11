@@ -1,0 +1,56 @@
+
+nav{
+
+
+    display: flex;
+    justify-content: center;
+}
+
+
+li:hover {
+
+   display: block;
+   width: 10vw;
+   transform: scale(2);
+
+
+}
+
+li{
+
+    transition: transform 2s;
+}
+
+
+
+div{
+
+    position: fixed;
+    width: 10vmax;
+    height: 10vmax;
+    background-color: orange;
+    border-radius: 50% 50%;
+    left: 0vw;
+   
+
+}
+
+@keyframes Mover {
+
+       from {left: 0vw;}
+
+        to{left: 100vw;}
+
+}
+
+
+
+div {
+
+
+  
+    animation: Mover 0.100s linear 0.5s infinite alternate running;
+
+
+
+}
